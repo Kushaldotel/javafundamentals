@@ -17,5 +17,6 @@ public class prothread {
         MyRunnable myRunnable = new MyRunnable();
         Thread thread = new Thread(myRunnable);
         thread.start();
+        System.out.println("This is a main method");
     }
 }
