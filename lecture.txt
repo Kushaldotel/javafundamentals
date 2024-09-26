@@ -1,0 +1,46 @@
+In Java Swing framework, there are various common components (Classes and Interface)
+
+##JAVA x.swing.JComponent(class)
+
+This is the base class for all Swing components that provides a various methods
+
+- void setBackGround(Color bg)
+- void setForeGround(Color fg)
+- void setVisble(boolean visible)
+- void addMouseListner(MouseListner ml)
+
+##JAVA x.swing.JButton(class)
+
+A button component that can trigger to an events when any button is clicked
+
+- void setText(String text)
+- void stringGetText()
+- void addActionListner(ActionListner al)
+
+##JAVA x.swing.JLabel(class)
+
+A display area for short text string or an image
+
+- void setHorizontalAlignment(int alignment)
+- void setVerticalAlignment(int alignment)
+
+
+##JAVA x.swing.JTextArea(class)
+
+- void append(String text)
+- void Insert(String text, int position)
+
+JAVA x.swing.JMenu(class)
+
+- void add(JMenuItem mi)
+
+
+##SWINg Interface
+
+#Java.awd.event.ActionListner(interface)
+
+- void actionPerformed(ActionEvent e)
+
+##Java.awt.event.MouseListner(interface)
+
+- void mouseClicked(MouseEvent e)
