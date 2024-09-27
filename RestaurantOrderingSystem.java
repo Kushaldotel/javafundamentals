@@ -53,10 +53,14 @@ class TurkishMenu {
         // Adding kebabs
         menuItems.add(new MenuItem("Kebabs", "Doner Kebab", "Thinly sliced lamb or chicken served with pita bread, salad, and a choice of sauces.", 13.00));
         menuItems.add(new MenuItem("Kebabs", "Shish Kebab", "Marinated chunks of grilled lamb or beef served with rice, grilled vegetables, and a side of yogurt.", 15.00));
+        menuItems.add(new MenuItem("Kebabs", "Adana Kebab", "Spicy minced lamb skewers served with rice, grilled vegetables, and a side of flatbread.", 14.00));
+        menuItems.add(new MenuItem("Kebabs", "Iskender Kebab", "Sliced doner kebab served over pieces of pita bread, topped with tomato sauce, melted butter, and yogurt.", 16.00));
+        menuItems.add(new MenuItem("Kebabs", "Chicken Kebab", "Grilled marinated chicken skewers served with rice, grilled vegetables, and a side of garlic sauce.", 13.00));
 
         // Adding side dishes
         menuItems.add(new MenuItem("Side Dishes", "Rice Pilaf", "Flavoured rice with herbs and vegetables.", 5.00));
         menuItems.add(new MenuItem("Side Dishes", "Grilled Vegetables", "Assorted seasonal vegetables grilled and seasoned.", 6.00));
+        menuItems.add(new MenuItem("Side Dishes", "Pita Bread", "Freshly baked pita bread.", 6.00));
 
         // Adding desserts
         menuItems.add(new MenuItem("Desserts", "Baklava", "Sweet pastry layers with honey and nuts.", 7.00));
@@ -64,6 +68,7 @@ class TurkishMenu {
 
         // Adding beverages
         menuItems.add(new MenuItem("Beverages", "Turkish Tea", "Traditional black tea served hot.", 3.00));
+        menuItems.add(new MenuItem("Beverages", "Ayran", "Chilled yogurt drink with a hint of salt.", 4.00));
         menuItems.add(new MenuItem("Beverages", "Turkish Coffee", "Strong and aromatic coffee served in small cups.", 4.00));
     }
 
